@@ -19,7 +19,7 @@ while True:
 print("-" * 80)
 length = int(len(students) - 1)
 for i in range(0, length, 2):
-    print("員工", students[i], "的薪資為{}".format(students[i + 1]))
+    print("員工", students[i], " 的薪資為{}".format(students[i + 1]))
 for j in range(1, length, 2):
     a = int(students[j])
     t += a
